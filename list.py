@@ -1,0 +1,13 @@
+l=[1,2,3,1.2,'a',4,'xyz',7.8,7,'a',1]
+print(l)
+print(l[0])
+print(l[-1])
+print(l[:5])
+l.append(9)
+print(l)
+l.insert(0,0)
+print(l)
+l.insert(4,22)
+print(l)
+l.remove('xyz')
+print(l)
